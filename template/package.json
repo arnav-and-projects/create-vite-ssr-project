@@ -1,0 +1,28 @@
+{
+  "name": "vite-ssr-project",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "backend-dev": "turbo run dev --filter backend",
+    "frontend-dev": "turbo run dev --filter frontend",
+    "backend-start": "turbo run start --filter backend",
+    "frontend-start": "turbo run start --filter frontend",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "prettier": "latest"
+  },
+  "packageManager": "npm@10.0.0",
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.21.0"
+  }
+}

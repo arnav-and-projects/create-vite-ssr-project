@@ -1,0 +1,16 @@
+{
+  "name": "create-vite-ssr-project",
+  "version": "1.0.5",
+  "description": "Simple Fullstack Scaffolding Built On Vite-SSR & TurboRepo",
+  "bin": {
+    "create-vite-ssr-project": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2"
+  }
+}
