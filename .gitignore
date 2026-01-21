@@ -56,8 +56,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -100,3 +98,4 @@ public/
 # Turborepo
 .turbo/
 dist/
+config.bat

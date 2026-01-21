@@ -1,10 +1,27 @@
 {
   "name": "create-vite-ssr-project",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple Fullstack Scaffolding Built On Vite-SSR & TurboRepo",
   "bin": {
     "create-vite-ssr-project": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnav-kushesh/create-vite-ssr-project.git"
+  },
+  "homepage": "https://github.com/arnav-kushesh/create-vite-ssr-project",
+  "bugs": {
+    "url": "https://github.com/arnav-kushesh/create-vite-ssr-project/issues"
+  },
+  "keywords": [
+    "vite",
+    "ssr",
+    "ssg",
+    "fullstack",
+    "scaffold",
+    "turbo"
+  ],
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
